@@ -1,5 +1,5 @@
 {
-    "chain_name": "aigen",
+    "chain_name": "aigent",
     "api": [
         {"provider": "Polkachu", "address": "http://62.164.223.71:1317"}
     ],
@@ -15,7 +15,7 @@
     "min_tx_fee": "8000",
     "assets": [{
         "base": "uaigent",
-        "symbol": "AIGEN",
+        "symbol": "AIGENT",
         "exponent": "18",
         "coingecko_id": "neutron",
         "logo": "/logos/neutron.svg"
