@@ -16,7 +16,7 @@
     "assets": [{
         "base": "aigent",
         "symbol": "AIGENT",
-        "exponent": "18",
+        "exponent": "6",
         "coingecko_id": "neutron",
         "logo": "/logos/neutron.svg"
     }],
