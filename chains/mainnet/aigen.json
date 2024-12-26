@@ -14,7 +14,7 @@
     "coin_type": "60",
     "min_tx_fee": "8000",
     "assets": [{
-        "base": "uaigent",
+        "base": "aigent",
         "symbol": "AIGENT",
         "exponent": "18",
         "coingecko_id": "neutron",
