@@ -1,26 +1,26 @@
 {
     "chain_name": "aigent",
     "api": [
-        {"provider": "Polkachu", "address": "http://62.164.223.71:1317"}
+        {"provider": "Polkachu", "address": "https://rest-testnet.aigents-chain.io"}
     ],
     "rpc": [
-        {"provider": "Polkachu", "address": "http://62.164.223.71:26657"}
+        {"provider": "Polkachu", "address": "https://rpc-testnet.aigents-chain.io"}
     ],
     "provider_chain": {
-        "api": ["https://rest.cosmos.directory/cosmoshub"]
+        "api": ["https://rest-testnet.aigents-chain.io/"]
     },
-    "features": ["dashboard", "blocks", "ibc", "cosmwasm", "uptime", "parameters", "state-sync","supply", "widget"],
-    "sdk_version": "0.45.1",
-    "coin_type": "60",
+    "features": ["dashboard","staking", "blocks","tx", "ibc", "cosmwasm", "uptime", "parameters", "state-sync","supply", "widget"],
+    "sdk_version": "0.47.15",
+    "coin_type": "118",
     "min_tx_fee": "8000",
     "assets": [{
-        "base": "uaigent",
+        "base": "aigent",
         "symbol": "AIGENT",
-        "exponent": "18",
+        "exponent": "6",
         "coingecko_id": "neutron",
-        "logo": "/logos/neutron.svg"
+        "logo": ""
     }],
     "addr_prefix": "ai",
     "theme_color": "#161723",
-    "logo": "/logos/neutron.svg"
+    "logo": ""
 }

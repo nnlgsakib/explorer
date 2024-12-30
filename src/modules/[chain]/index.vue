@@ -386,11 +386,11 @@ const amount = computed({
     </div>
 
     <div class="bg-base-100 rounded mt-4">
-      <div class="px-4 pt-4 pb-2 text-lg font-semibold text-main">
-        {{ $t('index.app_versions') }}
-      </div>
+      <!-- <div class="px-4 pt-4 pb-2 text-lg font-semibold text-main">
+       // {{ $t('index.app_versions') }}
+      </div> -->
       <!-- Application Version -->
-      <ArrayObjectElement :value="paramStore.appVersion?.items" :thead="false" />
+      <!-- <ArrayObjectElement :value="paramStore.appVersion?.items" :thead="false" /> -->
       <div class="h-4"></div>
     </div>
 
